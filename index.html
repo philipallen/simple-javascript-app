@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Building a router</title>
+
+    <style>
+        h5 {
+            margin: 0;
+        }
+
+        p {
+            margin: 3px 5px;
+        }
+
+        .car-details { 
+            display: flex;
+        }
+
+        .col-70 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 70%;
+        }
+        
+        .col-30 {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="sortButton">Sort</button>
+    <div id="content"></div>
+    <script src="routing/routing.js"></script>
+    <script src="services/car.service.js"></script>
+    <script src="pages/errorPage.js"></script>
+    <script src="pages/carsPage.js"></script>
+    <script src="pages/selectedCarPage.js"></script>
+</body>
+
+</html>
